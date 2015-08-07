@@ -3,15 +3,15 @@ package batalha.modelo;
 public class acoes {
 
 	
-	 public static int calculaDano(Integer dano) {
+	 public static int calculaDano(Integer ataque, Integer defesa) {
 		
-		/*if (dano <= defesa){
+		if (ataque <= defesa){
 			return 0;
 		} else {
-			return dano - defesa ;
+			return ataque - defesa ;
 		}
-		*/
-		 return 10;
+		
+	
 	}
 	
     }

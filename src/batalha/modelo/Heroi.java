@@ -8,19 +8,19 @@ public class Heroi extends Personagem {
 public int calculaAtaque( Personagem heroi){
 
 		//ATAQUE
-		int dano = 0;
+		int ataque = 0;
 		
 		for (int i= 1; i < heroi.getAtaque(); i++){
 			
-		 dano += dado.nextInt(5) + 1;
+		 ataque += dado.nextInt(5) + 1;
 			
 		}
 	 
 		System.out.print("dano");
-		System.out.println(dano);
+		System.out.println(ataque);
 		
 		
-		return dano;
+		return ataque;
 		
 	}
 	

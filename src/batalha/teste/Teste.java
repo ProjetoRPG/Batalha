@@ -13,10 +13,14 @@ public class Teste {
 		h1.setAtaque(5);
 		m1.setDefesa(4);
 		
+		
+		
+	
+		
 		for (int i= 1; i < 20; i++){
 			
 			// CALCULAR ATAQUE E DEFESA E RETIRAR O DANO FINAL
-		System.out.println(acoes.calculaDano( h1.calculaAtaque(h1.getAtaque())) ;	
+		System.out.println(acoes.calculaDano( h1.calculaAtaque(h1), m1.calculaDefesa(m1)));	
 			
 		}
 		
