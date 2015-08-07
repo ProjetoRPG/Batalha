@@ -1,4 +1,4 @@
-package batalha.modelo;
+package batalha.controle;
 
 public class acoes {
 
