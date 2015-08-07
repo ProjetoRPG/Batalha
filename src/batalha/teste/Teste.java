@@ -2,6 +2,7 @@ package batalha.teste;
 
 import batalha.modelo.Heroi;
 import batalha.modelo.Monstro;
+import batalha.modelo.acoes;
 
 public class Teste {
 
@@ -9,13 +10,13 @@ public class Teste {
 		Heroi h1 = new Heroi();
 		Monstro m1 = new Monstro();
 		
-		h1.ataque = 5;
-		m1.defesa = 4;
+		h1.setAtaque(5);
+		m1.setDefesa(4);
 		
 		for (int i= 1; i < 20; i++){
 			
-		System.out.println(h1.calculoDano(h1,m1));
-		
+			// CALCULAR ATAQUE E DEFESA E RETIRAR O DANO FINAL
+		System.out.println(acoes.calculaDano( h1.calculaAtaque(h1.getAtaque())) ;	
 			
 		}
 		
