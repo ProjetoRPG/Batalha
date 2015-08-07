@@ -24,7 +24,20 @@ public int calculaAtaque( Personagem heroi){
 		
 	}
 	
+public Integer calculaDefesa (Personagem heroi){
+	
+	int defesa = 0;
+	for(int j=1 ; j < heroi.getDefesa(); j++){
+		
+		defesa += dado.nextInt(4) + 1; 
+		
+	}
+	System.out.print("defesa");
+	System.out.println(defesa);
 
+	
+	return defesa;
+}
 
 
 
